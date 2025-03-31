@@ -1,15 +1,14 @@
 """
-Input:
+Input (of AdderClient.py):
 - Type: str
 - Do  not consider erroneous inputs
 - 2 integers e.g. "23,20"
-
-Exit request 
-- "exit"
-- Triggers client to shut down
-- Client should be only shut down after:
--- passing input to server and 
--- "Goodbye!" from server
+- Special input: exit request
+-- "exit"
+-- Triggers client to shut down
+-- Client should be only shut down after:
+--- passing input to server and 
+--- "Goodbye!" from server
 """
 
 import socket
