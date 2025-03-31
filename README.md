@@ -15,7 +15,7 @@ Input (of AdderClient.py):
 Journey:
 - Client takes in input from user
 - Client sends input to server via TCP
-- Server receives input from slient
+- Server receives input from client
 - Server prints user input on its terminal
 - Server adds the 2 integers 
 - Server prints out the result on a new line in terminal
